@@ -34,3 +34,17 @@ p.copyright {
   margin-top: 100px;
   font-size: 12px;
 }
+
+.navbar-brand {
+  width: 350px;
+  text-align: center;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important
+}
+
+#myCarousel div div img {
+  height: 500px;
+  margin: auto;
+}
