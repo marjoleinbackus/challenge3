@@ -20,9 +20,15 @@ div.container {
   width: 100%;
 }
 
+#about h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 p.intro {
-  margin-top: 10px;
   font-size: 16px;
+  width: 95%;
+  margin: auto;
 }
 
 span.countrypage {
@@ -47,4 +53,14 @@ p.copyright {
 #myCarousel div div img {
   height: 500px;
   margin: auto;
+}
+
+.japan_city {
+  text-align: left;
+  margin-left: 80px;
+}
+
+#tokyo img, #kyoto img, #sapporo img, #fukuoka img {
+  width: 400px;
+  height: 300px;
 }
