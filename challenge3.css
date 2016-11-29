@@ -55,12 +55,13 @@ p.copyright {
   margin: auto;
 }
 
-.japan_city {
+.japan_city, .netherlands_area {
   text-align: left;
   margin-left: 80px;
 }
 
-#tokyo img, #kyoto img, #sapporo img, #fukuoka img {
+#tokyo img, #kyoto img, #sapporo img, #fukuoka img, 
+#coastal img, #nature img, #villages img, #cities img{
   width: 400px;
   height: 300px;
 }
