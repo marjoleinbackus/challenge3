@@ -61,8 +61,7 @@ p.copyright {
 }
 
 #tokyo img, #kyoto img, #sapporo img, #fukuoka img, 
-#coastal img, #nature img, #villages img, #cities img,
-#berlin img, #hamburg img, #cologne img, #bavaria img, {
+#coastal img, #nature img, #villages img, #cities img {
   width: 400px;
   height: 300px;
 }
@@ -77,5 +76,8 @@ p.copyright {
   padding-right: 100px;
   padding-left: 15px;
   width: 33.33333333%;
-  }
+}
+
+.col-sm-4 img{
+  margin: auto;
 }
