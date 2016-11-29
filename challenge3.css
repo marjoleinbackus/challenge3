@@ -66,3 +66,16 @@ p.copyright {
   width: 400px;
   height: 300px;
 }
+
+.row {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+.col-sm-4 {
+  min-height: 1px;
+  padding-right: 100px;
+  padding-left: 15px;
+  width: 33.33333333%;
+  }
+}
