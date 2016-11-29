@@ -4,9 +4,31 @@ html, body {
     padding: 0;
     width: 100%;
     text-align: center;
-    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Serif;
     font-size: 14px;
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important
+}
+
+#myCarousel div div img {
+  height: 500px;
+  margin: auto;
+}
+
+.japan_city, .netherlands_area, .germany {
+  text-align: left;
+  margin-left: 80px;
+}
+
+#tokyo img, #kyoto img, #sapporo img, #fukuoka img, 
+#coastal img, #nature img, #villages img, #cities img,
+#berlin img, #hamburg img, #cologne img, #bavaria img{
+  width: 400px;
+  height: 300px;
+}
+
 
 div.container {
   width: 100%;
@@ -14,15 +36,19 @@ div.container {
   margin-top: 50px;
 }
 
+#contan
+
 #topcontainer {
   background-color: lightgrey;
+  padding-bottom: 50px;
 }
 
 #middlecontainer {
   background-color: lightblue;
   text-align:center;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
+  font-size: 16px;
 }
 
 h1 {
@@ -116,34 +142,6 @@ span.text-content {
     display:none;
 }
 
-.button {
-    border:4px solid;
-    border-radius:5px;
-    width: 40px;
-    padding-left:5px;
-    padding-right: 5px;
-    position: relative;
-    float:right;
-    background-color: pink;
-    color: black;
-    margin: 0 2px 0 2px;
-}
-
-.button.active {
-    background-color: #F8F8FF;
-    color: #525252;
-}
-
-button {
-    position: relative;
-    float:right;
-}
-
-.button a {
-    text-decoration: none;
-    color: black;
-}
-
 .title .flag {
   display: inline-block;
 }
@@ -207,7 +205,6 @@ button {
     border:4px solid turquoise;
     border-radius:5px;
     color: white;
-    font-weight: bold;
     box-shadow: 5px 5px 5px #888;
 }
 
@@ -242,4 +239,10 @@ button {
   background-image: url("bavaria2.png");
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+#footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: lightblue;
 }
