@@ -118,13 +118,14 @@ function search_coastal() {
   })
 }
 
-function handleResults_cities(response_data) {
+function handleResults_coastal(response_data) {
   response_data.hits.forEach(function(item) {
     var url = item.webformatURL
     var image = $(document.createElement('img'));
     image.attr('src', url)
     image.appendTo("#coastal")
   })
+}
 
 // duplicate again for another city
 
@@ -148,6 +149,7 @@ function handleResults_nature(response_data) {
     image.attr('src', url)
     image.appendTo("#nature")
   })
+}
 
   // duplicate again for another city
 
@@ -171,6 +173,7 @@ function handleResults_villages(response_data) {
     image.attr('src', url)
     image.appendTo("#villages")
   })
+}
 
   // duplicate again for another city
 
@@ -194,6 +197,7 @@ function handleResults_cities(response_data) {
     image.attr('src', url)
     image.appendTo("#cities")
   })
+}
 
 
 
